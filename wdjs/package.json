@@ -1,0 +1,22 @@
+{
+  "name": "wdjs",
+  "version": "0.1.0",
+  "description": "automated e2e testing with wd.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Muraski",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-shell": "^0.4.2",
+    "gulp-task-listing": "^1.0.0",
+    "gulp-util": "^3.0.5",
+    "jasmine-node": "^1.14.5",
+    "wd": "^0.3.12"
+  }
+}

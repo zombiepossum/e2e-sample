@@ -1,0 +1,19 @@
+{
+  "name": "browse-e2e",
+  "version": "1.0.0",
+  "description": "e2e tests for browse mod",
+  "main": "index.js",
+  "dependencies": {
+    "nightwatch": "^0.6.13"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "nightwatch": "^0.6.13"
+  },
+  "scripts": {
+    "test": "nightwatch",
+    "watch-coffee": "coffee -cw **/*.coffee"
+  },
+  "author": "Joe Muraski",
+  "license": "ISC"
+}
